@@ -58,7 +58,6 @@ public class Pontos extends Perguntas{
 		else if(resposta3 == "b" || "B" )
 		{
 			ponto3 = 1;
-		}
 		else if(resposta3 == "c" || "C" )
 		{
 			ponto3 = 0;
@@ -125,23 +124,26 @@ public class Pontos extends Perguntas{
 		//**********************************************************************************************//
 		if(resposta7 == "a" || "A" )
 		{
-			ponto7 = 0;
+			ponto7 = x;
 		}
 		else if(resposta7 == "b" || "B" )
 		{
-			ponto7 = 2;
-		}
+			ponto7 = x;
 		else if(resposta7 == "c" || "C" )
 		{
-			ponto7 = 3;
+			ponto7 = x;
 		}	
 		else if(resposta7 == "d" || "D" )
 		{
-			ponto7 = 2;
+			ponto7 = x;
+		}
+		else if(resposta7 == "e" || "E" )
+		{
+			ponto7 = x;
 		}
 		else
 		{
-			ponto7 = 0;
+			ponto7 = x;
 		}
 		
 		
