@@ -1,0 +1,88 @@
+package EstadoSanitário;
+
+public class Perguntas {
+	
+	
+	String nome;
+	String cpf;
+	String cidade;
+	int n_moradores;
+	String problema_agua;
+	String cheiro;
+	String alaga;
+	String lixo;
+	String rua;
+	String coleta;
+	
+	
+	
+	//Perguntas
+	System.out.println("\nQual é o seu nome? ");
+	nome = leia.nextLine(); 
+	
+	/*System.out.println("\nQual é o seu CPF? ");
+	cpf = leia.nextLine(); 
+	System.out.println("\nQual é a sua cidade? ");
+	cidade = leia.nextLine(); 
+	
+	Informações para compor futuro banco de dados
+	*/
+	
+	
+	//Perguntas
+	
+	System.out.println("\n1. Quantas pessoas moram na casa?  ");
+	n_moradores = leia.nextInt();
+	
+	System.out.println("\n2. Você costuma ter problemas com a água que utiliza em casa? ");
+	problema_agua = leia.nextString();
+	
+	System.out.println("\n3. Para onde vai o esgoto de sua casa?");
+	esgoto = ;
+	System.out.println("\n1. Encanado para o rio");
+	System.out.println("\n2. Fossa séptica");
+	System.out.println("\n3. Encanado para estação de tratamento de esgoto");
+	System.out.println("\n4. Fossa negra");
+	System.out.println("\n4. corre a céu aberto");
+	
+	System.out.println("\n4.  Na sua rua sente cheiro de esgoto?");
+	cheiro = leia.nextString();
+	
+	System.out.println("\n5. Quando chove, sua rua fica alagada?");
+		alaga = leia.nextString();
+		
+	System.out.println("\n6. Na sua rua, você vê lixo nas grades de drenagem ou bocas-de-lobo, após as chuvas?");
+		rua = leia.nextString();	
+		
+	System.out.println("\n7. O que é feito com o lixo produzido em sua casa?");
+		lixo = leia.nextString();	
+		
+		System.out.println("\n1. Coletado");
+		System.out.println("\n2. Queimado");
+		System.out.println("\n3. Enterrado");
+		System.out.println("\n4. Jogado");
+		System.out.println("\n4. Levado p0ra caçamba");
+		
+		
+	System.out.println("\n8. A coleta de lixo ocorre de forma regular em sua rua?");
+		coleta = leia.nextString();		
+		
+		
+		
+		
+	
+	
+	
+	
+	switch(op)
+	{
+	case 1:
+		System.out.println("\nEncanado para o rio");
+	case 2:
+		System.out.println("\nFossa séptica");
+	case 3:
+		System.out.println("\nEncanado para estação de tratamento de esgoto");
+	case 4:
+		System.out.println("\nfossa negra");
+	case 5:
+		System.out.println("\nfossa negra");
