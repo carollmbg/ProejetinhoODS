@@ -34,21 +34,7 @@ public class Perguntas1 {
 				System.out.println("\nfossa negra");
 		}
 		
-		}
 
-
-		switch(op)
-		{
-		case 1:
-			System.out.println("\nEncanado para o rio");
-		case 2:
-			System.out.println("\nFossa séptica");
-		case 3:
-			System.out.println("\nEncanado para estação de tratamento de esgoto");
-		case 4:
-			System.out.println("\nfossa negra");
-		case 5:
-			System.out.println("\nfossa negra");
 
 		
 		

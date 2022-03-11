@@ -12,11 +12,11 @@ public class Perguntas {
 	
 	try (Scanner leia = new Scanner(System.in)) {
 		String nome, cpf,cidade,problema_agua,cheiro,alaga, lixo, rua,coleta,esgoto;
-		int n_moradores=0;
+		int n_moradores;
 		
 		
 		
-		//Dados do usuário
+		//Dados
 		
 		System.out.println("\nQual é o seu nome? ");
 		nome = leia.next(); 
@@ -39,8 +39,6 @@ public class Perguntas {
 		{
 			System.out.println("\nTente novamente\n1. Quantas pessoas moram na casa?");
 		}
-		
-		
 		
 		System.out.println("\n2. Você costuma ter problemas com a água que utiliza em casa? ");
 		problema_agua = leia.next();
